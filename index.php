@@ -51,7 +51,7 @@ $alt = new jsonRPCClient('http://USER:PASSWORD=@127.0.0.1:PORT');
 <br><br>
  Donate to the faucet: <a href="criptoreal:CXAiLhMtUViKWjzrSSNqXh3dotCRiaAPeJ">CXAiLhMtUViKWjzrSSNqXh3dotCRiaAPeJ</a>
 <br><br>
-<a href="https://criptoreal.org" target="_blank">CriptoReal</a> <?php echo date("Y") ?> | <a href="github.com/CriptoReal/Criptoreal-Faucet" target="_blank">Github</a></h5>
+<a href="https://criptoreal.org" target="_blank">CriptoReal</a> <?php echo date("Y") ?> <br> <br>Fork me on <a href="https://github.com/criptoreal/criptoreal-faucet" target="_blank">Github</a></h5>
 </div>
 </div>
 </div>
