@@ -33,7 +33,7 @@ $amount = rand($min,$max);
 		$username = $_POST['address'];
 		$check = $alt->validateaddress($username);
 
-		if($alt->getbalance() < 1){
+		if($alt->getbalance() <= 0){
 						$errors['balance'] = 'The faucet is empty :s <br> Please let <a href="https://twitter.com/criptoreal" target="_blank">@Criptoreal</a> know';
 						$data['errors'] = true;
 						$data['errors']  = $errors;
